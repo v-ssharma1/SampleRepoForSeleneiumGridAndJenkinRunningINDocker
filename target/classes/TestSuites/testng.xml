@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation regression suite" verbose="1"
+	thread-count="3" parallel="tests">
+	<!-- <listeners> <listener class-name="org.uncommons.reportng.HTMLReporter" 
+		/> <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> <listener 
+		class-name="com.uiAutomationRetailSite.Expedia.GCO.Helper.Listener.RetryListener" 
+		/> <listener class-name="com.uiAutomationRetailSite.Expedia.GCO.Helper.Listener.ExtentListener" 
+		/> </listeners> -->
+	<!-- <test name="ValidCustomerDetails"> <classes> <class name="test.java.CustomerRagistration.CustomerRagistration.TestCustomerDisplay" 
+		/> </classes> </test> -->
+	<test name="InValidCustomerDetailsOnFireFox" thread-count="2">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class
+				name="test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm" />
+		</classes>
+	</test>
+	<test name="InValidCustomerDetailsOnChrome" thread-count="2">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class
+				name="test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

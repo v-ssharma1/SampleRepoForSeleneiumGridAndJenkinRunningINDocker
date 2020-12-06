@@ -1,0 +1,12 @@
+1. To make the docker env ready, go to the file location of docker-compose.yml and run below command
+   docker-compose up -d
+2. To close the environment run the below comand
+    docker-compose down
+3. if you want to know about other environment variables which you want to add in your env set up through docker-compose.yml then use below command
+   docker image inspect <IMAGE_ID>
+
+   
+   ===========
+   
+   How to avoid “StaleElementReferenceException” in Selenium?
+   https://stackoverflow.com/questions/12967541/how-to-avoid-staleelementreferenceexception-in-selenium

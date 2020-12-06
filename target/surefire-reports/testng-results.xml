@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Automation regression suite" duration-ms="36662" started-at="2020-12-06T19:36:15Z" finished-at="2020-12-06T19:36:52Z">
+    <groups>
+    </groups>
+    <test name="InValidCustomerDetailsOnChrome" duration-ms="36662" started-at="2020-12-06T19:36:15Z" finished-at="2020-12-06T19:36:52Z">
+      <class name="test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm">
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm@4e7dc304]" name="SetUp" is-config="true" duration-ms="24583" started-at="2020-12-06T19:36:15Z" finished-at="2020-12-06T19:36:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="testInValidCustomerDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm@4e7dc304]" name="testInValidCustomerDetails" duration-ms="5861" started-at="2020-12-06T19:36:40Z" data-provider="getDataFromSheet" finished-at="2020-12-06T19:36:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test_Case_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saurabh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sau@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInValidCustomerDetails -->
+        <test-method status="PASS" signature="testInValidCustomerDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm@4e7dc304]" name="testInValidCustomerDetails" duration-ms="6216" started-at="2020-12-06T19:36:46Z" data-provider="getDataFromSheet" finished-at="2020-12-06T19:36:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test_Case_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saurabh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3129763902]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInValidCustomerDetails -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm@4e7dc304]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-12-06T19:36:52Z" finished-at="2020-12-06T19:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm -->
+    </test> <!-- InValidCustomerDetailsOnChrome -->
+    <test name="InValidCustomerDetailsOnFireFox" duration-ms="36654" started-at="2020-12-06T19:36:15Z" finished-at="2020-12-06T19:36:52Z">
+      <class name="test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm">
+        <test-method status="PASS" signature="SetUp(java.lang.String)[pri:0, instance:test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm@3b084709]" name="SetUp" is-config="true" duration-ms="23128" started-at="2020-12-06T19:36:15Z" finished-at="2020-12-06T19:36:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="testInValidCustomerDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm@3b084709]" name="testInValidCustomerDetails" duration-ms="6405" started-at="2020-12-06T19:36:38Z" data-provider="getDataFromSheet" finished-at="2020-12-06T19:36:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test_Case_1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saurabh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[sau@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInValidCustomerDetails -->
+        <test-method status="PASS" signature="testInValidCustomerDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm@3b084709]" name="testInValidCustomerDetails" duration-ms="5980" started-at="2020-12-06T19:36:45Z" data-provider="getDataFromSheet" finished-at="2020-12-06T19:36:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test_Case_2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saurabh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chicago]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3129763902]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInValidCustomerDetails -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm@3b084709]" name="closeBrowser" is-config="true" duration-ms="1110" started-at="2020-12-06T19:36:51Z" finished-at="2020-12-06T19:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm -->
+    </test> <!-- InValidCustomerDetailsOnFireFox -->
+  </suite> <!-- Test Automation regression suite -->
+</testng-results>

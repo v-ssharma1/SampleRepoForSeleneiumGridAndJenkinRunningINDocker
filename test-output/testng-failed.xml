@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [All Tests]" parallel="tests">
+  <test name="InValidCustomerDetails(failed)" parallel="tests">
+    <classes>
+      <class name="test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm">
+        <methods>
+          <include name="testInValidCustomerDetails" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- test.java.CustomerRagistration.CustomerRagistration.TestCustomerForm -->
+    </classes>
+  </test> <!-- InValidCustomerDetails(failed) -->
+</suite> <!-- Failed suite [All Tests] -->
